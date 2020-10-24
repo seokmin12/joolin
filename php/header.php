@@ -3,7 +3,7 @@
 ?>
 
 <nav>
-    <a href="../html/main.html"><img src="../img/logo.png"></a>
+    <a href="../html/index.html"><img src="../img/logo.png"></a>
     <a href="../html/kospi.html" id="kospi" class="kospi">코스피</a>
     <a href="../html/samsung.html" id="samsung" class="samsung">삼성전자</a>
     <a href="../html/community.html" id="community" class="community">커뮤니티</a>

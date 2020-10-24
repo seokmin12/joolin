@@ -12,7 +12,7 @@ $row = mysqli_fetch_array($result);
 if ($id==$row['id'] && $pw==$row['pw']) {
    $_SESSION['id']=$row['id'];
    $_SESSION['name']=$row['name'];
-   echo "<script>location.href='../html/main.html';</script>";
+   echo "<script>location.href='../html/index.html';</script>";
 } else {
    echo "<script>window.alert('잘못된 아이디 또는 비밀번호 입니다.');</script>"; // 잘못된 아이디 또는 비빌번호 입니다
    echo "<script>location.href='../html/login.html';</script>";
