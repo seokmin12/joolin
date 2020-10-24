@@ -1,0 +1,70 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+div#main.main h1 {
+    text-align: center;
+}
+
+div#main.main p {
+    margin-left: 680px;
+}
+
+div#main.main p.id input#id {
+    height: 40px;
+    width: 400px;
+}
+
+div#main.main p.id input#idchk {
+    height: 46px;
+    width: 60px;
+}
+
+div#main.main p.pw input {
+    height: 40px;
+    width: 400px;
+}
+
+div#main.main p.pwchk input {
+    height: 40px;
+    width: 400px;
+}
+
+div#main.main p.name input {
+    height: 40px;
+    width: 400px;
+}
+
+div#main.main p.gender select {
+    height: 45px;
+    width: 408px;
+}
+
+div#main.main p.birth select {
+    height: 40px;
+    width: 118px;
+}
+
+div#main.main p.phone select {
+    height: 45px;
+    width: 120px;
+}
+
+div#main.main p.phone input {
+    height: 40px;
+    width: 120px;
+}
+
+div#main.main p.email input {
+    height: 40px;
+    width: 400px;
+}
+
+div#main.main input#register {
+    position: absolute;
+    right: 705px;
+    height: 45px;
+    width: 408px;
+}

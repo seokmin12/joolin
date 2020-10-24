@@ -1,0 +1,60 @@
+div#main.main form fieldset {
+    width: 1000px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 380px;
+}
+
+div#main.main form fieldset h1 {
+    margin-left: 450px;
+}
+
+div#main.main form fieldset input#id.id {
+    position: absolute;
+    top: 300px;
+    left: 790px;
+    width: 200px;
+    height: 35px;
+}
+
+div#main.main form fieldset input#pw.pw {
+    position: absolute;
+    top: 360px;
+    left: 790px;
+    width: 200px;
+    height: 35px;
+}
+
+div#main.main form fieldset input#login_btn.login_btn {
+    position: absolute;
+    top: 420px;
+    left: 790px;
+    width: 210px;
+    height: 40px;
+}
+
+div#main.main form fieldset input#remember_id.remember_id {
+    position: absolute;
+    top: 470px;
+    left: 786px;
+    width: 20px;
+    height: 20px;
+}
+
+div#main.main form fieldset label {
+    position: absolute;
+    top: 475px;
+    left: 820px;
+}
+
+div#main.main form fieldset a#lost_id.lost_id {
+    position: absolute;
+    top: 520px;
+    left: 800px;
+}
+
+div#main.main form fieldset a#lost_pw.lost_pw {
+    position: absolute;
+    top: 520px;
+    left: 900px;
+}

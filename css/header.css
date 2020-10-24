@@ -1,0 +1,48 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    background-color: rgb(163, 176, 185);
+}
+
+header nav a img {
+    width: 170px;
+    height: 85px;
+}
+
+header nav a#kospi.kospi {
+    position: absolute;
+    top: 35px;
+    left: 450px;
+    font-size: 20px;
+}
+
+header nav a#samsung.samsung {
+    position: absolute;
+    top: 35px;
+    left: 550px;
+    font-size: 20px;
+}
+
+header nav a#community.community {
+    position: absolute;
+    top: 35px;
+    left: 650px;
+    font-size: 20px;
+}
+
+header nav a#login.login {
+    position: absolute;
+    top: 35px;
+    right: 200px;
+    font-size: 18px;
+}
+
+header nav a#register.register {
+    position: absolute;
+    top: 35px;
+    right: 100px;
+    font-size: 18px;
+}

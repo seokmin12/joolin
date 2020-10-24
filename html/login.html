@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/load_header.js"></script>
+    <script src="../js/load_footer.js"></script>
+    <title>로그인</title>
+</head>
+
+<body>
+    <header id="header">
+    </header>
+    <div id="main" class="main">
+        <form action="../lib/login_ok.php" method="post">
+            <fieldset>
+                <h1>LOGIN</h1>
+                <input type="text" id="id" class="id" placeholder="아이디" autocomplete="off">
+                <input type="password" id="pw" class="pw" placeholder="비밀번호" autocomplete="off">
+                <input type="submit" id="login_btn" class="login_btn" value="로그인">
+                <input type="checkbox" id="remember_id" class="remember_id"><label for="remember_id"> 아이디 저장</label>
+                <a href="../html/lost_id.html" id="lost_id" class="lost_id">아이디 찾기</a>
+                <a href="../html/lost_pw.html" id="lost_pw" class="lost_pw">비밀번호 찾기</a>
+            </fieldset>
+        </form>
+    </div>
+
+    <footer id="footer">
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+footer {
+    margin-top: -100px;
+}
+
+footer table#footer {
+    background-color: #464646;
+    width: 100%;
+    height: 120px;
+    margin-left: 0px;
+}
