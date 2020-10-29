@@ -9,13 +9,17 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <script src="../js/jquery.js"></script>
-    <script src="../js/load_header.js"></script>
-    <script src="../js/load_footer.js"></script>
     <title>로그인</title>
 </head>
 
 <body>
     <header id="header">
+        <nav>
+            <a href="index.html"><img src="../img/logo.png"></a>
+            <a href="kospi.html" id="kospi" class="kospi">코스피</a>
+            <a href="samsung.html" id="samsung" class="samsung">삼성전자</a>
+            <a href="community.html" id="community" class="community">커뮤니티</a>
+        </nav>
     </header>
     <div id="main" class="main">
         <form action="../lib/login_ok.php" method="post">
@@ -32,6 +36,18 @@
     </div>
 
     <footer id="footer">
+        <table id="footer">
+            <tr>
+                <td>
+                    <!-- 이용약관 -->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- 개인정보처리방침 -->
+                </td>
+            </tr>
+        </table>
     </footer>
 </body>
 
