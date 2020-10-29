@@ -1,3 +1,3 @@
 $(document).ready( function() {
-    $("#header").load("../php/header.php");
+    $("#header").load("header.php");
 });

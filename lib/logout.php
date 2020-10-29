@@ -7,6 +7,6 @@ if($_SESSION['id']!=null){
 }
 
 echo "<script>window.alert('로그아웃 되셨습니다.')</script>";
-echo "<script>location.href='../html/index.html';</script>";
+echo "<script>location.href='../index.html';</script>";
 
 ?>
